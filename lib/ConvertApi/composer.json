@@ -1,0 +1,14 @@
+{
+  "name": "roykesserwani/ConvertApi",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "roykesserwani",
+      "email": "roy.kesserwani@gmail.com"
+    }
+  ],
+  "require": {
+  }
+}
