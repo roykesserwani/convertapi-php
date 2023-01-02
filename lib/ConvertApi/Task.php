@@ -16,13 +16,8 @@ class Task
 
     function run()
     {
-        $params = array_replace(
-            $this->normalizedParams(),
-            [
-                'StoreFile' => true,
-            ]
-        );
-
+        $params = $this->normalizedParams();
+        
         if ($this->conversionTimeout) {
             $params['Timeout'] = $this->conversionTimeout;
             $readTimeout = $this->conversionTimeout + ConvertApi::$conversionTimeoutDelta;
