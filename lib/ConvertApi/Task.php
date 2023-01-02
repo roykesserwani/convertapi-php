@@ -16,7 +16,7 @@ class Task
 
     function run()
     {
-        $params = array_merge(
+        $params = array_replace(
             $this->normalizedParams(),
             [
                 'StoreFile' => true,
